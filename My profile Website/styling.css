@@ -1,0 +1,54 @@
+body {
+    background-color: burlywood;
+}
+
+h1, h3 {
+    color:saddlebrown;
+}
+
+nav {
+    background-color: rgb(124, 57, 26); /* Dark background */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(104, 48, 22); /* Adding a shadow for some depth */
+}
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: space-around; /* Evenly distribute items */
+}
+
+nav ul li {
+    flex: 1; /* Distribute space evenly */
+}
+
+nav ul li a {
+    display: block;
+    color: white; /* Link color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+nav ul li a:hover {
+    color:rgb(218, 101, 59);
+}
+
+p {
+    border: 2px solid rgb(124, 57, 26);
+    padding: 30px;
+}
+a {
+    color: rgb(218, 101, 59);
+}
+
+a:hover {
+    color: beige;
+}
+
+img, h1 {
+    max-width: 100%;
+    height: auto;
+}
