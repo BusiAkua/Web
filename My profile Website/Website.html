@@ -5,13 +5,27 @@
 		<meta charset="utf-8">
 		<title> Busisiwe's Website</title>
 		<link rel="stylesheet" href="Styles/styling.css">
+		<script defer src= "Styles/script.js"> </script> 
 	</head>
 	<main>
-	<body>
+
+
+	<body id = "body">
 	
-		<h1>Busisiwe Mitchell</h1>
-		<img src="images/Strawhats.png" width="400px" height="200px"></img>
-		<h4> About me </h4> 
+		<h1 id = "test">Busisiwe Mitchell</h1>
+		<img id = "image" src="images/Strawhats.png" width="500px" height="200px"></img>
+		<nav>
+			<ul> 
+				<li><a href = "#Biography"> Biography</a> </li>
+				<li><a href = "#Projects"> Projects</a></li>
+				<li><a href = "#Contacts"> Contacts </a></li>
+			</ul>
+		</nav>
+
+		<!-- <button onclick = "sayHello()"> Click Me </button>-->
+		<!-- <button onclick = "SomeFunc()"> Add Image </button>-->
+		
+		<h3 id ="Biography"> Biography </h3> 
 		<p> I am currently a second year Computer science and Business Management student studying at the University of the Free State, In my spare time I love watching anime, reading novels and manga and listening to music.
 			I was born in Bloemfontein and grew up in a town called Thaba Nchu in the Free State, I attended a Tlotlanang Combined School for all of my primary and high school years and matriculated there. I then went on to the 
 			University of the Witwatersrand intending to study a degree in civil engineering and during the course of my studies I was introduced to coding, that led to finding careers that involved programming and coding and that introduced me to 
@@ -19,16 +33,26 @@
 			degree.  
 		</p>
 
-		<h4> Projects </h4>
+		<h3 id = "Projects"> Projects </h3>
 		<p> 
-			
+			Project 1 : Temperature Converter
+			A simple temperature converter that takes a temperature value in degree celsius and will return the temperature in Fahrenheit and vice versa 
+
+			<a href = "https://github.com/BusiAkua/PRODIGY_SD_01"> Project File in Github</a>
+		</p>
+
+		<h3 id = "Contacts"> Contacts <h3>
+		<p>
+			 Cellphone Number: 0671967033
+			 <br>
+			 Email : <a href="mailto:busi.akua@gmail.com">Personal email address</a>
 		</p>
 
 	</body>
 	</main>
 
 	<footer>
-		&copy; Site by Busisiwe Mitchell
+		&copy; Site by Busisiwe Mitchell<br>
 				Updated 17 October 2024
 	</footer>
 </html>
